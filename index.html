@@ -44,9 +44,14 @@
       object-fit: cover; /* 确保视频内容适应固定尺寸 */
     }
 
-    .hero.is-light.is-small {
+    .hero.is-light.is-small video{
       padding: 0px;
+      flex: 0 0 auto; /* 保证视频宽度固定，不随容器拉伸 */
+      object-fit: cover; /* 确保视频内容适应固定尺寸 */
     }
+
+
+
   </style>
 
 
@@ -105,7 +110,7 @@
     <div class="row">
       <div class="gallery">
         <video  width="100%" loop autoplay muted>
-          <source src="./static/videos/Head/pred_2_sk.mp4" type="video/mp4">
+          <source src="./static/videos/Head/pred_8_normal.mp4" type="video/mp4">
         </video>
       </div>
       <div class="gallery">
@@ -138,7 +143,7 @@
       </div>
       <div class="gallery">
         <video  width="100%" loop autoplay muted>
-          <source src="./static/videos/Head/pred_8_normal.mp4" type="video/mp4">
+          <source src="./static/videos/Head/pred_2_sk.mp4" type="video/mp4">
         </video>
       </div>
       <div class="gallery">
@@ -261,48 +266,8 @@
 
       </div>
     </div>
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            <a href="https://river-zhang.github.io/SIFU-projectpage/"> SIFU (CVPR'24)</a> is capable of reconstructing a high-quality 3D clothed human model, making it well-suited for practical applications such as scene creation and 3D printing.
-          </p>
-          <p>
-            <a href="https://huangyangyi.github.io/TeCH/"> TeCH (3DV'24)</a> reconstructs the 3D human by leveraging  descriptive text prompts (e.g., garments, colors, hairstyles) which are automatically generated via a garment parsing model and Visual Question Answering (VQA),  a personalized fine-tuned Text-to-Image diffusion model (T2I) which learns the "indescribable" appearance. 
-          </p>
-          <p>
-            <a href="https://river-zhang.github.io/GTA-projectpage/"> GTA (NeurIPS'23)</a>  is a novel transformer-based architecture that reconstructs clothed human avatars from monocular images.
-          </p>
-        </div>
-
-      </div>
-    </div> -->
-
   </div>
 </section>
-
-
-<!-- <section class="section" id="BibTeX">
-
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    If you find our work helpful, please consider citing:
-    <pre><code>
-@inproceedings{pan2024humansplat,
-  title={HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors}, 
-  author={Pan, Panwang and Su, Zhuo and Lin, Chenguo and Fan, Zhen and Zhang, Yongjie and Li, Zeming and Shen, Tingting and Mu, Yadong and Liu, Yebin},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2024}
-}
-    </code></pre>
-  </div>
-
-</section> -->
-
 
 
 <!-- Footer. -->
