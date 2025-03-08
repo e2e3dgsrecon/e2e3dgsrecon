@@ -7,7 +7,7 @@
 
   <meta name="keywords" content="3DGS, Human Reconstruction">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projecttitle</title>
+  <title>Unify3D</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <title>Video Gallery</title>
@@ -44,11 +44,6 @@
       object-fit: cover; /* 确保视频内容适应固定尺寸 */
     }
 
-    .hero.is-light.is-small video{
-      padding: 0px;
-      flex: 0 0 auto; /* 保证视频宽度固定，不随容器拉伸 */
-      object-fit: cover; /* 确保视频内容适应固定尺寸 */
-    }
 
 
   </style>
@@ -93,7 +88,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">Projecttitle </h1>
+          <h1 class="title is-2 publication-title">Unify3D: End-to-end Monocular 3D Human Reconstruction with Gaussian Splatting </h1>
           <h4 class="is-size-5 publication-authors"><span style="color: #036bfc;">Anonymous Submission</span></h4>
           <!-- <div class="column has-text-centered"></div> -->
         </div>
@@ -106,29 +101,6 @@
 <section class="hero teaser">
 <div class="columns is-centered has-text-centered">
   <div class="column is-four-fifths">
-    <div class="row">
-      <div class="gallery">
-        <video  width="100%" loop autoplay muted>
-          <source src="./static/videos/Head/pred_13.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="gallery">
-        <video  width="100%" loop autoplay muted>
-          <source src="./static/videos/Head/pred_213.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="gallery">
-        <video  width="100%" loop autoplay muted>
-          <source src="./static/videos/Head/pred_6.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="gallery">
-        <video  width="100%" loop autoplay muted>
-          <source src="./static/videos/Head/pred_3.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-
     <div class="row">
       <div class="gallery">
         <video  width="100%" loop autoplay muted>
@@ -148,6 +120,28 @@
       <div class="gallery">
         <video  width="100%" loop autoplay muted>
           <source src="./static/videos/Head/pred_16_normal.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="row">
+      <div class="gallery">
+        <video  width="100%" loop autoplay muted>
+          <source src="./static/videos/Head/pred_13.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="gallery">
+        <video  width="100%" loop autoplay muted>
+          <source src="./static/videos/Head/pred_213.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="gallery">
+        <video  width="100%" loop autoplay muted>
+          <source src="./static/videos/Head/pred_6.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="gallery">
+        <video  width="100%" loop autoplay muted>
+          <source src="./static/videos/Add/pred_20.mp4" type="video/mp4">
         </video>
       </div>
     </div>
@@ -198,47 +192,47 @@
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="steve" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_111_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="chair-tp" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_0_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="shiba" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_13.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="fullbody" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_13_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline>
-            <source src="./static/videos/Add/pred_20.mp4" type="video/mp4">
+          <video poster="" width="50%" id="fullbody" autoplay controls muted loop playsinline>
+            <source src="./static/videos/Head/pred_17.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="blueshirt" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_20_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="mask" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_67.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="coffee" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_67_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="toby" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_4_normal.mp4" type="video/mp4">
           </video>
         </div>
@@ -253,48 +247,48 @@
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="steve" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_8.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="chair-tp" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_8_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="shiba" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_46.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="fullbody" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_46_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="fullbody" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_72.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline>
+          <video poster="" width="50%" id="blueshirt" autoplay controls muted loop playsinline>
             <source src="./static/videos/Add/pred_72_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline>
-            <source src="./static/videos/Add/pred_75.mp4" type="video/mp4">
+          <video poster="" width="50%" id="mask" autoplay controls muted loop playsinline>
+            <source src="./static/videos/Add/pred_6.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline>
-            <source src="./static/videos/Add/pred_75_normal.mp4" type="video/mp4">
+          <video poster="" width="50%" id="coffee" autoplay controls muted loop playsinline>
+            <source src="./static/videos/Add/pred_111_normal.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline>
-            <source src="./static/videos/Add/pred_111_normal.mp4" type="video/mp4">
+          <video poster="" width="50%" id="toby" autoplay controls muted loop playsinline>
+            <source src="./static/videos/Add/pred_75_normal.mp4" type="video/mp4">
           </video>
         </div>
       </div>
